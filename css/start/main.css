@@ -377,3 +377,49 @@
     justify-content: center;
     align-items: center;
 }
+
+@media (max-width: 375px)  {
+    .banners__left{
+        display: none !important;
+    }
+    .banners__right{
+        width: 100%!important;
+    }
+    .banners-sale{
+        display: none;
+    }
+    .right__name{
+        display: none;
+    }
+    .wrap-right::before{
+        font-family: OpenSansBold;
+        content: "Nike Red";
+        font-size: 22px;
+    }
+    .banners__img{
+        height: auto;
+        width: 100%;
+    }
+    .banners__right{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding-right: 0px!important;
+        background-color: white!important;
+    
+    }
+    .content .banners{
+        border-bottom: none;
+    }
+    .content .title{
+        font-size: 22px;
+    }
+    .content .best-offer__description{
+        margin-left:  15px !important;
+        text-align: center;
+    }
+    .banners{
+        padding-left: 0px !important;
+    }
+}
