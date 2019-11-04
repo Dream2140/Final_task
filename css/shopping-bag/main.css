@@ -1,0 +1,200 @@
+.main {
+    display: flex;
+    flex-flow: column;
+}
+.main .shoping-bag-top {
+}
+.main .shoping-bag-top .shoping-bag-top__title {
+    padding-left: 80px;
+    padding-right: 60px;
+    font-family: OpenSansBold;
+    font-size: 26px;
+    height: 65px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.main .shoping-bag-bot {
+    height: 205px;
+    display: flex;
+    flex-flow: column;
+}
+.main .shoping-bag-bot .shoping-bag-top__title {
+    background-color: #f7f7f7;
+    border-top: 1px solid #e5e5e5;
+    font-family: OpenSansBold;
+    font-size: 12px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+.main .shoping-bag-bot__item {
+    color:#f14a58;
+    display: flex;
+}
+.main .shoping-bag-bot__checkout {
+    padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    
+}
+.main .checkout__empty-bag {
+ font-family: RobotoBold;
+    font-size: 13px;
+}
+.main .checkout__button {
+    font-family: OpenSansBold;
+    font-size: 24px;
+    border: 1px solid #e5e5e5;
+    padding: 25px 110px 25px 110px;
+}
+.main .checkout__total-price {
+    display: flex;
+    flex-flow: row;
+}
+.main .total-price__title {
+    font-family: RobotoBold;
+    font-size: 22px;
+}
+.main .total-pric__price {
+    font-family: RobotoBold;
+    font-size: 24px;
+}
+
+
+
+.main .bag-content {
+     padding-left: 60px;
+    padding-right: 60px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.bag-content__item {
+    width: 50%;
+    display: flex;
+    flex-flow: row;
+    padding-top: 30px;
+}
+.bag-content__item .bag-content__wrap-img {
+}
+.bag-content__item .bag-content__img {
+}
+.bag-content__item .bag-content__description {
+    padding-left: 25px;
+}
+.bag-content__item .description__title {
+    padding-top: 15px;
+    font-family: RobotoBold;
+    font-size: 14px;
+}
+.bag-content__item .description__price {
+    padding-top: 20px;
+    font-family: RobotoBold;
+    font-size: 16,67px;
+}
+.bag-content__item .description__color {
+    display: flex;
+    flex-flow: row;
+    padding-top: 40px;
+    font-family: RobotoRegular;
+    font-size: 12px;
+}
+.bag-content__item .color__title {
+}
+.bag-content__item .color__item {
+}
+.bag-content__item .description__size {
+    display: flex;
+    flex-flow: row;
+     font-family: RobotoRegular;
+    font-size: 12px;
+}
+.bag-content__item .size__title {
+}
+.bag-content__item .size__item {
+}
+.bag-content__item .description__quantity {
+    display: flex;
+    flex-flow: row;
+     font-family: RobotoRegular;
+    font-size: 12px;
+    width: 100px;
+    justify-content: space-between;
+}
+.bag-content__item .quantity__minus {
+    color:#f14a58;
+    font-size: 15px;
+    cursor: pointer;
+}
+.bag-content__item .quantity__number {
+}
+.bag-content__item .quantity__plus {
+    color:#f14a58;
+    font-size: 15px;
+    cursor: pointer;
+    font
+}
+.bag-content__item .description__remove {
+    padding-top: 30px;
+     font-family: OpenSansBold;
+    font-size: 13px;
+    color:#f14a58;
+    cursor: pointer;
+}
+
+.bag-content__wrap-img {
+    position: relative;
+
+
+}
+
+.bag-content__wrap-img__text {
+    position: absolute;
+    top: 0px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    text-align: center;
+    font-family: OpenSansBold;
+    color:#f14a58;
+    font-size: 22px;
+    background: rgba(123, 123, 123, 0.7);
+    padding: 20px;
+    display: none;
+}
+.bag-content__wrap-img:hover .bag-content__wrap-img__text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.bag-content__empty {
+    width: 100%;
+    height: 400px;
+    font-family: OpenSansBold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.bag-content__empty .empty__link {
+    color:#f14a58;
+}
+.bag-content__checkout{
+      width: 100%;
+    height: 400px;
+    font-family: OpenSansBold;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

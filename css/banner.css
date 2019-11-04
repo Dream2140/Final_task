@@ -1,0 +1,85 @@
+.banners {
+    display: flex;
+    flex-direction: row;
+    height: 380px;
+    border-top: 1px solid #e5e5e5;
+}
+.banners .banners__left {
+    
+    width: 50%;
+    position: relative;
+}
+.banners .left-title-wrap {
+    position: absolute;
+    top: 65px;
+    right: 105px;
+}
+.banners .left-name {
+font-family: OpenSansBold;
+    font-size: 28px;
+    color:white;
+}
+.banners .left-description {
+    color: white;
+    font-style: italic;
+    font-size: 16px;
+    text-align: center;
+}
+.banners .left-img {
+height: 100%;
+    width: 100%;
+}
+.banners .banners__right {
+    display: flex;
+    flex-flow: row;
+    width: 50%;
+}
+.banners .right__first {
+    width: 50%;
+    position: relative;
+    background-color: #f7f7f7;
+    border-right: 1px solid #e5e5e5;
+}
+.banners .img-first {
+    height: 100%;
+}
+.banners .right-first-wrap {
+     position: absolute;
+     bottom: 50px;
+     
+}
+.banners .first-name {
+    font-family: OpenSansBold;
+    font-size: 28px;
+    color:white;
+}
+.banners .first-description {
+    font-family: RobotoRegular;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+}
+.banners .right__second {
+    width: 50%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.banners .img-second {
+display: flex;
+}
+.banners .right-second-wrap {
+    margin-top: 50px;
+ 
+}
+.banners .second-name {
+    font-family: OpenSansBold;
+    font-size: 28px;
+    color: #f14a58;
+}
+.banners .second-description {
+    color: #757575;
+    font-size: 16px;
+}

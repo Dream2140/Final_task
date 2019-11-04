@@ -1,0 +1,104 @@
+a{
+    color: black;
+}
+.header {
+
+    display: flex;
+    flex-flow: column;
+
+    padding: 30px 60px 30px 60px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.header .header__top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header .header__top .login-bag {
+    font-family: RobotoRegular;
+    width: 210px;
+    display: flex;
+    
+    
+}
+.bag-wrap{
+    display: flex;
+    flex-flow: row;
+}
+.header .header__top .login-bag .name-bag {}
+
+.header .name-site {
+    font-family: OpenSansBold;
+    font-size: 32px;
+
+}
+.header .name-site:hover{
+    color:#f14a58;
+}
+
+.header .email  .email__link{
+    font-family: RobotoRegular;
+    text-decoration: none;
+    color: black;
+}
+
+.header .img-bag {
+    width: 13px;
+    height: 13px;
+}
+
+.header .bag__count {}
+
+.header .header__bottom {
+    display: flex;
+    align-content: center;
+}
+
+.header .menu {
+    list-style-type: none;
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: space-around;
+    padding-left: 0px;
+
+
+
+}
+
+.header .menu_item {
+  
+
+}
+
+.header .menu__link {
+    font-family: OpenSansBold;
+    text-decoration: none;
+    color: black;
+}
+.menu__link:hover {
+    color:#f14a58;
+}
+.header .search {
+    
+    display: flex;
+}
+
+.header .search__input {
+    width: 160px;
+    border: none;
+    background-image: url("../img/header/ico-search.png");
+    background-repeat: no-repeat;
+    /*Убираем повтор изображения*/
+    background-position: 140px;
+    border-bottom: 2px solid #e5e5e5;
+   
+    font-family: OpenSansBold;
+}
+.header .search__input:focus {
+    background-image:none;
+}
+
+
+

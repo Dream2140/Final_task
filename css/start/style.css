@@ -1,0 +1,29 @@
+@import "../fonts.css" all;
+@import "../header.css" all;
+@import "../normalize.css" all;
+@import "../footer.css" all;
+@import "main.css" all;
+
+html { height: 100%; }
+
+body {
+
+display: flex;
+
+flex-direction: column;
+
+height: 100%;
+
+}
+
+.content {
+
+flex: 1 0 auto;
+
+}
+
+footer {
+
+flex: 0 0 auto;
+
+}

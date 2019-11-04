@@ -1,0 +1,86 @@
+ ul {
+     padding: 0;
+     margin: 0
+ }
+
+ .sort {
+     display: flex;
+     flex-flow: row;
+     margin-right: 60px;
+     margin-left: 60px;
+ }
+
+ /* Стиль Выпадающей Кнопки */
+ .sort__title {
+     border: 1px solid #e5e5e5;
+     padding: 16px;
+     font-size: 16px;
+     cursor: pointer;
+     border-top: none;
+     font-family: OpenSansBold;
+     font-size: 16px;
+ }
+
+ /* контейнер <div> - необходим для размещения выпадающего содержимого */
+ .sort__style,
+ .sort__type,
+ .sort__color,
+ .sort__brand,
+ .sort__size,
+ .sort__price {
+   width: calc(100%/6);
+ }
+
+ /* Выпадающей контент (по умолчанию скрыт) */
+ .menu__style,
+ .menu__type,
+ .menu__color,
+ .menu__brand,
+ .menu__size,
+ .menu__price {
+     display: none;
+     position: absolute;
+     background-color: #f9f9f9;
+     width: 100%;
+     max-width:  205px;
+     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+     z-index: 1;
+ }
+
+ /* Ссылки внутри выпадающего списка */
+ .menu__style li,
+ .menu__type li,
+ .menu__color li,
+ .menu__brand li,
+ .menu__size li,
+ .menu__price li {
+    display: block;
+     height: 30px;
+     padding-left: 15px;
+     padding-top: 10px;
+ }
+
+
+ /* Показать выпадающее меню при наведении */
+ .sort__style:hover .menu__style,
+ .sort__color:hover .menu__color,
+ .sort__type:hover .menu__type,
+ .sort__brand:hover .menu__brand,
+ .sort__size:hover .menu__size,
+ .sort__price:hover .menu__price {
+     display: block;
+   
+ }
+
+.sort__item{
+    font-family: OpenSansBold;
+    font-size: 12px;
+}
+.sort__item:hover{
+   background-color:#D5D0CF;
+    color: #f14a58;
+}
+.sort__title:hover{
+ background-color: #f7f7f7;
+    color: #f14a58;
+}

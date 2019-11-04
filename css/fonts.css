@@ -1,0 +1,28 @@
+/*OpenSans-Bold*/
+@font-face{ 
+    font-family: OpenSansBold;
+    src: url(../fonts/OpenSans/OpenSans-Bold.ttf);
+    src: url(../fonts/OpenSans/OpenSans-Bold.woff);
+    src: url(../fonts/OpenSans/OpenSans-Bold.woff2);    
+
+}
+
+/*Roboto*/
+@font-face{ 
+    font-family: RobotoRegular;
+    src: url(../fonts/Roboto/Roboto-Regular.ttf);
+ 
+
+}
+@font-face{ 
+    font-family: RobotoBold;
+    src: url(../fonts/Roboto/Roboto-Bold.ttf);
+ 
+
+}
+@font-face{ 
+    font-family: RobotoMedium;
+    src: url(../fonts/Roboto/Roboto-Medium.ttf);
+ 
+
+}
