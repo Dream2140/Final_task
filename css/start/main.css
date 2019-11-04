@@ -378,7 +378,7 @@
     align-items: center;
 }
 
-@media (max-width: 400px)  {
+@media (max-width: 420px)  {
     .banners__left{
         display: none !important;
     }
@@ -419,7 +419,16 @@
         margin-left:  15px !important;
         text-align: center;
     }
-    .banners{
-        padding-left: 0px !important;
+    .content{
+        width: 100%!important;
+    }
+    .best-offer__items{
+        flex-flow: column;
+    }
+    .first-item{
+        width: 50%;
+    }
+    .second-item{
+        width: 50%;
     }
 }
