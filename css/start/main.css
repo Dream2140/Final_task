@@ -378,7 +378,7 @@
     align-items: center;
 }
 
-@media (max-width: 420px)  {
+@media (max-width: 375px)  {
     .banners__left{
         display: none !important;
     }
