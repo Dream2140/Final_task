@@ -212,3 +212,25 @@ a {
 .footer .bottom-right__link {
     color: black;
 }
+@media (max-width: 375px)  {
+    
+    .footer{
+        flex-flow: column;
+        justify-content: space-between;
+        padding:15px;
+    }
+    .socials__text{
+        display: none;
+    }
+    .footer__right{
+        width: 100%!important;
+        flex-wrap: wrap;    
+        
+    }
+    .footer__left{
+        width: 100%!important;
+    }
+    .bottom-right{
+       display: none; 
+    }
+}
